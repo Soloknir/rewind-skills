@@ -1,9 +1,9 @@
+import { AppHeader } from "components/shared/AppHeader";
+
 export function DefaultLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <header className="">
-        header
-      </header>
+      <AppHeader />
       <main className="">
         {children}
       </main>

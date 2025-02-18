@@ -1,8 +1,11 @@
 
 import { AppRouter } from './router';
+import React from 'react';
 
 export const App = () => {
   return (
-    <AppRouter />
+    <React.StrictMode>
+      <AppRouter />
+    </React.StrictMode>
   );
 };
