@@ -1,8 +1,9 @@
+import { BooksList } from "features/books/components/BooksList";
 
 const BooksRoute = () => {
   return (
-    <div>
-      books view
+    <div className="container page-offset">
+      <BooksList />
     </div>
   );
 }

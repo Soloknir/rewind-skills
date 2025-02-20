@@ -1,0 +1,88 @@
+h1, .h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+
+  @media (max-width: 920px) {
+    font-size: 24px;
+  }
+}
+
+h2, .h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+
+  @media (max-width: 920px) {
+    font-size: 22px;
+    line-height: 120%;
+  }
+
+  @media (max-width: 350px) {
+    font-size: 20px;
+  }
+}
+
+h3, .h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.2px;
+
+  @media (max-width: 920px) {
+    font-size: 18px;
+    letter-spacing: -0.18px;
+  }
+}
+
+.text_medium {
+  font-weight: 500;
+}
+
+.text_bold {
+  font-weight: 700;
+}
+
+.text_semibold {
+  font-weight: 600;
+}
+
+.text_black {
+  font-weight: 900;
+}
+
+.text_primary {
+  font-size: 16px;
+  line-height: 150%;
+
+  @extend .text_medium;
+
+  @media (max-width: 920px) {
+    font-size: 14px;
+  }
+}
+
+.text_primary_bold {
+  @extend .text_primary;
+
+  @extend .text_bold;
+}
+
+.text_primary_semibold {
+  @extend .text_primary;
+
+  @extend .text_semibold;
+}
+
+.text_common {
+  font-size: 14px;
+  line-height: 150%;
+
+  @extend .text_medium;
+}
+
+.text_common_bold {
+  @extend .text_common;
+
+  @extend .text_bold;
+}

@@ -1,0 +1,17 @@
+.book {
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text-dark-gray);
+  }
+
+  &__autor {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

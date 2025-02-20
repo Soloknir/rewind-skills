@@ -1,6 +1,6 @@
 const BookRoute = () => {
   return (
-    <div>
+    <div className="container">
       book view
     </div>
   );

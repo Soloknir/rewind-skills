@@ -1,0 +1,48 @@
+:root {
+  --color-yellow: rgba(255, 230, 0, 1);
+  --color-white: #ffffff;
+  --color-black: rgba(30, 30, 30, 1);
+  --color-orange: rgba(242, 145, 0, 1);
+  --color-red: rgba(237, 28, 36, 1);
+  --color-dark-red: rgba(173, 40, 40, 1);
+  --color-blue: rgba(103, 143, 180, 1);
+  --color-green: rgba(43, 164, 70, 1);
+  --color-dark-green: rgba(43, 128, 62, 1);
+  --color-back-gray: rgba(239, 239, 239, 1);
+  --color-back-light-gray: rgba(244, 245, 246, 1);
+  --color-back-page: rgba(250, 250, 250, 1);
+  --color-back-blue: rgba(218, 237, 255, 1);
+  --color-back-light-blue: rgba(232, 244, 255, 1);
+  --color-back-red: rgba(255, 235, 235, 1);
+  --color-back-yellow: rgba(255, 247, 233, 1);
+  --color-back-light-yellow: rgba(255, 251, 224, 1);
+  --color-back-green: rgba(235, 255, 238, 1);
+  --color-text-gray: rgba(165, 165, 165, 1);
+  --color-text-blue: rgba(82, 115, 146, 1);
+  --color-text-red: rgba(173, 40, 40, 1);
+  --color-text-yellow: rgba(183, 121, 0, 1);
+  --color-text-dark-gray: rgba(85, 86, 95, 1);
+  --color-stroke-gray: rgba(221, 221, 221, 1);
+  --accent-yellow-default: rgba(255, 230, 0, 1);
+  --accent-yellow-hover: rgba(255, 238, 83, 1);
+  --accent-yellow-press: rgba(232, 208, 0, 1);
+  --accent-blue-default: rgba(103, 143, 180, 1);
+  --accent-blue-hover: rgba(118, 162, 203, 1);
+  --accent-blue-press: rgba(91, 125, 157, 1);
+  --color-gradient-light: linear-gradient(92.26deg,
+      #527392 -4.37%,
+      #afc2d5 98.77%);
+  --color-gradient-dark: linear-gradient(273.11deg,
+      #15222f 0.24%,
+      #7693ad 104.82%);
+
+  --shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+  --shadow-2: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+  --shadow-center: 0px 1px 5px 1px rgba(0, 0, 0, 0.12);
+
+  --border-radius-xs: 4px;
+  --border-radius-s: 8px;
+  --border-radius-m: 12px;
+  --border-radius-l: 16px;
+  --border-radius-xl: 20px;
+}
